@@ -1,0 +1,128 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0; 
+      padding: 0;
+      line-height: 1.6;
+      background: linear-gradient(45deg,#800080,#000080);
+      color: #333;
+}
+header {    
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      background: transparent;
+      box-shadow: 0px 3px 15px rgbs(84,84,84,0.1);
+}
+header h1 {
+      margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #0056b3;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background: #e2dede;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #444;
+    }
+#about img {
+      display: block;
+      margin: 0 auto 20px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+.skills-list-1{
+    background-color: blue;
+}
+.skills-list, .projects-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+.skills-list div{
+      background: #4b7fe0;
+      padding: 15px;
+      border-radius: 6px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+.projects-list div{
+    background: #4b7fe0;
+      padding: 15px;
+      border-radius: 6px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.projects-list-1:hover{
+    background-color: rgb(25, 25, 243);
+
+}
+#resume{
+    
+    text-align: center;
+}
+footer {
+      text-align: center;
+      background: #333;
+      color: #fff;
+      padding: 15px;
+    }
+a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #3979f1;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+a.button:hover {
+      background: #4e28f7;
+    }
+#contact{
+    text-align: center ;
+}
